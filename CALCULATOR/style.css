@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  .main {
+    min-height: 100vh;
+    background: linear-gradient(to right bottom, #2c5364, #203a43, #0f2027);
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+  }
+  .box {
+    width: 420px;
+    height: 580px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.849);
+    border-radius: 23px;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .heading {
+    position: relative;
+    left: 110px;
+    padding-top: 30px;
+    font-size: 28px;
+  }
+  
+  .input-box input[type="text"] {
+    position: relative;
+    left: 28px;
+    width: 350px;
+    height: 30px;
+    margin-top: 30px;
+    border: 3px solid black;
+    font-size: 30px;
+    outline: none;
+    background: white;
+    color: black;
+  }
+  
+  .first-row {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    padding-top: 30px;
+    left: 10px;
+  }
+  
+  .first-row button {
+    display: flex;
+    flex-direction: row;
+    background: orange;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    justify-content: center;
+    font-size: 30px;
+  }
+  
+  .first-row button:hover {
+    box-shadow: 0 0 15px orange;
+  }
+  
+  .row {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    padding-top: 30px;
+    left: 10px;
+  }
+  
+  .row button {
+    display: flex;
+    flex-direction: column;
+    background: lightyellow;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    justify-content: center;
+  }
+  
+  .row button:hover {
+    box-shadow: 0 0 15px lime;
+  }
+  
+  .black {
+    background: black !important;
+    color: white;
+    width: 145px !important;
+    border-radius: 5% !important;
+  }
+  
+  .black:hover {
+    box-shadow: 0 0 0px black !important;
+  }
+  
+  .blue {
+    background: rgb(139, 139, 228) !important;
+    font-size: 30px !important;
+  }
+  
+  .blue:hover {
+    box-shadow: 0 0 15px rgb(0, 81, 255) !important;
+  }
